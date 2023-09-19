@@ -1,0 +1,13 @@
+#Problem 1 uses memorization dp methods with recursion.This means the time complexity is going to be 
+O(N*weight1*weight2). The weight 1 and weight 2 are because of worst case scenario where the values 
+in the knapsack are all 1 and we have to add everysingle one into each knapsack.
+
+#problem 2 is time complexity O(N*M) where N is the array of coins and M is the value we are trying to add up to.
+The M value refers to the amount of coins you have the opportunity to use. The N is the amount the coins need to 
+add up to. This is also because of worste case scenario where all the coins are 1 and you can use every coin 
+only increasing the amount by 1.
+
+#problem 3 is time complexity O(N*M) where M is the sum of the partitions.
+
+#problem 4 is time complexity O(N^3). There is a nested for loop in a nested for loop. 
+This loops through the chain and every cell in each row causing a O(N^3)
